@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-`{ascii_id}` can be set to `*` to convert all in `./ascii/` to images.
+`{ascii_id}` can be set to `'*'` to convert all in `./ascii/` to images.
 ```
-python3 ./convert_a2i.py {ascii_id} {*font_size}
+python ./convert_a2i.py {ascii_id} {*font_size}
 ```
