@@ -5,4 +5,13 @@ A collection of my favorite cat ascii art.
 
 
 ## ASCII -> PNG convertor
-[https://onlinetools.com/ascii/convert-ascii-to-image (with my settings)](https://onlinetools.com/ascii/convert-ascii-to-image?background-color=&width=&height=&text-color=rgb(255%2C%20255%2C%20255)&font-size=128&typeface=monospace&typeface-url=&align-horizontal=left&align-vertical=middle&bold=true&italic=false&padding=&text-shadow=&line-height=&format=png)
+### installation
+```
+pip install -r requirements.txt
+```
+
+### Usage
+`{ascii_id}` can be set to `*` to convert all in `./ascii/` to images.
+```
+python3 ./convert_a2i.py {ascii_id} {*font_size}
+```
